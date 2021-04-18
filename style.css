@@ -1,0 +1,29 @@
+.container {
+    background-color: red;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+
+.citation {
+    color: red;
+    font-size: 40px;
+    
+}
+
+.bloc {
+    background-color: white;
+    max-width: 300px;
+    text-align: center;
+    height: 30%;
+    font-family: 'Anton', sans-serif;
+    
+}
+
+.btn {
+    font-family: 'Anton', sans-serif;
+    color: white;
+}
