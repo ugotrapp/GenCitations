@@ -1,8 +1,9 @@
 .container {
     background-color: red;
-    height: 100%;
+    height: 800px;
     display: flex;
-    justify-content: center;
+    background-image:url(https://t2.ldh.be/PuZN4PhIrTW9t_8ZLjUR_KmnCvo=/0x359:2014x1363/1920x960/5e6695aff20d5a29c64b25e1.jpg);
+    
     
 }
 
@@ -18,12 +19,13 @@
     background-color: white;
     max-width: 300px;
     text-align: center;
-    height: 30%;
+    margin-top: 150px;
     font-family: 'Anton', sans-serif;
-    
+    margin-bottom: 100px;
 }
 
 .btn {
     font-family: 'Anton', sans-serif;
     color: white;
+    
 }
