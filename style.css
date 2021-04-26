@@ -25,6 +25,7 @@
 
 .btn {
     color: white;
+    background-color: rgb(189, 10, 10);
     padding: 10px;
     border-radius: 10px;
     font-family: 'Coda Caption', sans-serif;
