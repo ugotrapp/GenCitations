@@ -30,11 +30,11 @@ function updateCitation(){
 auteur = document.querySelector(".auteur");
 citation = document.querySelector(".citation");  
 citation.innerHTML = citations[getRandomInt(9)];  
-
+generateur = document.querySelector('.generateur');
 
 // j'ai utilisé la fonction getramdomint pour generer des nombres aleatoirement entre 0 et 255 , ce qui m'a permis de generer des couleurs aleatoirement a l'aide de rgb
 citation.style.color = `rgb(${getRandomInt(255)},${getRandomInt(255)},${getRandomInt(255)}) `   
-
+generateur.style.backgroundColor = `rgb(${getRandomInt(255)},${getRandomInt(255)},${getRandomInt(255)}) `
 myButton.style.backgroundColor = `rgb(${getRandomInt(255)},${getRandomInt(255)},${getRandomInt(255)}) `  
 auteur.style.color = `rgb(${getRandomInt(255)},${getRandomInt(255)},${getRandomInt(255)}) ` 
 }
